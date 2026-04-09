@@ -1,0 +1,43 @@
+# Virtual environment
+venv/
+.env
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+notebooks
+# Dataset (large file — download via wget in README)
+dataset/
+
+# Trained model artifacts
+outputs/models/*.pkl
+
+# Logs
+outputs/*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage / testing
+.coverage
+htmlcov/
+.pytest_cache/
